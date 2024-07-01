@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #bcdd9b;
+}
+
+.shopping-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe364;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px #333;
+}
+
+.shopping-list-container ul {
+  margin-left: -10px;
+}
+
+.shopping-list-container ul li {
+  margin-bottom: 5px;
+}
